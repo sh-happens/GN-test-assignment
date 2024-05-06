@@ -1,0 +1,28 @@
+:root {
+  --Indentind-4: 4px;
+  --Indentind-8: 8px;
+  --RadiusRad-8: 8px;
+  --Primary-Blue-100: #B0D6FF;
+  --Primary-Blue-500: #007BFF;
+  --Primary-Blue-600: #0070E8;
+  --Neutral-Neutral-100: #F7F9FC;
+  --Neutral-Neutral-500: #98A2B3;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--lightestgrey); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #98A2B3; 
+  border-radius: 5px;
+  height: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
